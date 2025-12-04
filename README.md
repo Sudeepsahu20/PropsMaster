@@ -1,21 +1,22 @@
-<<<<<<< HEAD
-# React + Vite
+A simple and clean React project that demonstrates how to implement global authentication state using the React Context API.
+This project is designed for beginners who want to understand how useContext, createContext, and Context Providers work inside a real React application.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
 
-Currently, two official plugins are available:
+🔐 Global Authentication State
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔄 Login & Logout functionality
 
-## React Compiler
+🌍 App-wide state access using useContext()
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🧩 Clean code structure with separate AuthContext.js
 
-## Expanding the ESLint configuration
+📦 Easy to extend for future projects (like real databases or JWT)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# PropsMaster
-ReactPulse is a small React project that explains how to manage data using Props and the Context API. It shows the difference between passing data through props and sharing global data with context.
->>>>>>> 044e3297421566d363f97f0c718c72cc41d738fd
+🛠️ Tech Stack
+
+React.js
+
+React Hooks (useState, useContext)
+
+Context API
